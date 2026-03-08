@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded 
+  cursor-pointer transform transition duration-200 
+  hover:scale-105 hover:bg-blue-700 hover:shadow-lg;
+}
+
+.btn-danger {
+  @apply text-red-500 cursor-pointer transform transition duration-200 hover:scale-105;
+}
